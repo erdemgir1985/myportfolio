@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - Erdem Gir</title>
+</head>
+<body>
+    <header>
+        <h1>İletişim</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="project.html">Projeler</a></li>
+            <li><a href="about.html">Hakkımda</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>İletişim Formu</h2>
+            <form action="mailto:erdematina@gmail.com" method="post" enctype="text/plain">
+                <div>
+                    <label for="name">Ad Soyad:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <br>
+                
+                <div>
+                    <label for="email">E-posta:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <br>
+                
+                <div>
+                    <label for="subject">Konu:</label><br>
+                    <select id="subject" name="subject">
+                        <option value="">Seçiniz...</option>
+                        <option value="is_teklifi">İş Teklifi</option>
+                        <option value="proje_teklifi">Proje Teklifi</option>
+                        <option value="danismanlik">Danışmanlık</option>
+                        <option value="diger">Diğer</option>
+                    </select>
+                </div>
+                <br>
+                
+                <div>
+                    <label for="message">Mesajınız:</label><br>
+                    <textarea id="message" name="message" rows="6" cols="50" required></textarea>
+                </div>
+                <br>
+                
+                <div>
+                    <input type="submit" value="Gönder">
+                    <input type="reset" value="Temizle">
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Bruchmühlbach-Miesau</p>
+        <p><strong>Erdem Gir</strong></p>
+    </footer>
+</body>
+</html>
