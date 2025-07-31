@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D6D7D3;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+#container {
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+/* Header */
+h1 {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 28px;
+}
+
+.tolstoy-heading1 {
+  color: #e74c3c;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  min-height: 500px;
+}
+
+/* Left Side - Image */
+.img-container {
+  width: 40%;
+  background-color: #f8f9fa;
+  padding: 30px;
+  text-align: center;
+  border-right: 2px solid #e9ecef;
+}
+
+.tolstoy-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.img-container p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Navigation */
+nav {
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  margin: 10px 0;
+}
+
+nav a {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #e9ecef;
+}
+
+/* Right Side - Content */
+.content-area {
+  width: 60%;
+  padding: 30px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+}
+
+section h3 {
+  color: #34495e;
+  font-size: 20px;
+  margin: 15px 0 10px 0;
+}
+
+section p {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+ul {
+  margin-left: 20px;
+  color: #555;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.li-span {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+
+
+/* Forms */
+form {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+fieldset {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+legend {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c3e50;
+  padding: 0 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Radio and Checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.inline-label {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="reset"] {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #2980b9;
+}
+
+input[type="reset"] {
+  background-color: #95a5a6;
+}
+
+input[type="reset"]:hover {
+  background-color: #7f8c8d;
+}
+
+/* Footer */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+} 
